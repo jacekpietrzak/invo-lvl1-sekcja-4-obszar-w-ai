@@ -1,0 +1,17 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "./styles/vendors/normalize.scss";
+@import "./styles/base/root.scss";
+@import "./styles/fonts/fonts.scss";
+@import "./styles/components/card.scss";
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-on-surface);
+  background-color: var(--color-background);
+}
+
+p {
+  color: var(--color-on-surface);
+}
